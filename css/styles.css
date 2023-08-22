@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+body{
+  padding-bottom: 20px;
+}
+
 .form-signin {
   max-width: 330px;
   padding: 1rem;
@@ -95,4 +99,8 @@ body {
   }
   .bd-mode-toggle {
     z-index: 1500;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
   }
