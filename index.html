@@ -19,11 +19,9 @@
 
     <body>
         <header>
-            
             <!--Navigation-->
             <nav class="navbar navbar-expand navbar-light bg-light">
                 <div class="container-fluid">
-
                     <!-- ACN Logo -->
                     <a class="navbar-brand" href="#">
                         <img
@@ -46,7 +44,6 @@
 
                     <!--Navigation Bar-->
                     <div class="collapse navbar-collapse" id="libraryNavbar">
-
                         <!--Navigation buttons-->
                         <ul class="navbar-nav me-auto">
                             <li
@@ -130,8 +127,65 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Aquí se agregará el form de datos del
-                                        nuevo ejemplar
+                                    
+                                        <!-- Insertion Form -->
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="bookId" class="form-label">ID</label>
+                                                <input
+                                                    type="number"
+                                                    class="form-control"
+                                                    id="bookId"
+                                                    disabled />
+                                            </div>
+                            
+                                            <div class="mb-3">
+                                                <label for="inputBookName" class="form-label"
+                                                    >Nombre del ejemplar</label>
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="inputBookName" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="inputBookAuthor" class="form-label"
+                                                    >Nombre del autor</label>
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="inputBookAuthor" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="inputBookPublisher" class="form-label"
+                                                    >Editorial</label>
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="inputBookPublisher" />
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="selectBookType" class="form-label">Tipo</label>
+                                                <select class="form-select" id="selectBookType">
+                                                    <option value="libro">Libro</option>
+                                                    <option value="Revista">Revista</option>
+                                                    <option value="CD">CD</option>
+                                                    <option value="DVD">DVD</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label for="bookState" class="form-label">Estado</label>
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="bookState"
+                                                    value="ACTIVO"
+                                                    disabled />
+                                            </div>      
+                                            
+                                            <!-- <button class="btn btn-secondary" id="cancel">Cancelar</button>
+                                            <button type="submit" class="btn btn-primary" id="save">Guardar</button> -->
+                                        </form>
                                     </div>
                                     <div class="modal-footer">
                                         <button
@@ -153,6 +207,8 @@
                 </div>
             </nav>
         </header>
-        <main></main>
+        <main>
+
+        </main>
     </body>
 </html>
