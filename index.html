@@ -85,7 +85,14 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Aquí se agregará el campo de búsqueda
+                                        <div class="mb-3">
+                                            <label for="inputCodeSearch" class="form-label"
+                                                >Código de ejemplar</label>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="inputCodeSearch" />
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button
@@ -183,6 +190,7 @@
                                                     disabled />
                                             </div>      
                                             
+
                                             <!-- <button class="btn btn-secondary" id="cancel">Cancelar</button>
                                             <button type="submit" class="btn btn-primary" id="save">Guardar</button> -->
                                         </form>
@@ -191,12 +199,14 @@
                                         <button
                                             type="button"
                                             class="btn btn-secondary"
-                                            data-bs-dismiss="modal">
+                                            data-bs-dismiss="modal"
+                                            id="cancelBookBtn">
                                             Cancelar
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-primary">
+                                            class="btn btn-primary"
+                                            id="saveBookBtn">
                                             Guardar
                                         </button>
                                     </div>
