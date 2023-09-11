@@ -10,10 +10,10 @@
     },
     {
         "id":"12341",
-        "name":"Lord of the Rings",
-        "author":"Tolkien",
-        "publisher":"Salamanca",
-        "type":"DVD",
+        "name":"Gracias por el fuego",
+        "author":"Mario Benedetti",
+        "publisher":"Grupo Editorial Planeta",
+        "type":"Libro",
         "state":"ACTIVE"
 
     },
@@ -46,46 +46,64 @@
     },
     {
         "id":"12345",
-        "name":"",
-        "author":"",
-        "publisher":"",
-        "type":"",
+        "name":"El Unicornio",
+        "author":"Manuel Mujica Lainez",
+        "publisher":"Grupo Editorial Planeta",
+        "type":"Libro",
         "state":"ACTIVE"
 
     },
     {
         "id":"12346",
-        "name":"",
-        "author":"",
-        "publisher":"",
-        "type":"",
+        "name":"Histora Económica de la Argentina",
+        "author":"Eduardo Miguez",
+        "publisher":"Sudamericana",
+        "type":"CD",
         "state":"ACTIVE"
 
     },
     {
         "id":"12347",
-        "name":"",
-        "author":"",
-        "publisher":"",
-        "type":"",
+        "name":"Ricky Martin: Black and White Tour",
+        "author":"Ricky Martin",
+        "publisher":"Sony Music",
+        "type":"DVD",
         "state":"ACTIVE"
 
     },
     {
         "id":"12348",
-        "name":"",
-        "author":"",
-        "publisher":"",
-        "type":"",
+        "name":"La historia argentina contada por mujeres",
+        "author":"Gabriela Margall",
+        "publisher":"Ediciones B",
+        "type":"Libro",
         "state":"ACTIVE"
 
     },
     {
         "id":"12349",
-        "name":"",
-        "author":"",
-        "publisher":"",
-        "type":"",
+        "name":"Cómo ser un buen líder",
+        "author":"Dale Carnegie",
+        "publisher":"Ediciones Obelisco",
+        "type":"Libro",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12349",
+        "name":"Mucho Gusto",
+        "author":"Doña Petrona C. de Gandulfo",
+        "publisher":"Ediciones Mucho Gusto",
+        "type":"Revista",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12349",
+        "name":"La Granja de Zenón",
+        "author":"Paula Abdulia",
+        "publisher":"CMD Ediciones",
+        "type":"Revista",
         "state":"ACTIVE"
 
     }
