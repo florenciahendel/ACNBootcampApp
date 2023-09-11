@@ -41,7 +41,7 @@ btnLogin.addEventListener('click', (e) => {
     } else {
         //Revisamos si el return de la función validarUsuario es un objeto o un boolean. Si es un objeto, fue una validación exitosa y usamos los datos. Si no, informamos por alert.
         async function fetchDB() {
-            let database = await fetch('./js/database.json');
+            let database = await fetch('./js/usersDatabase.json');
             let users = await database.json();
             let data = validateUser(
                 users,

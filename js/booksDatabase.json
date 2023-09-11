@@ -1,0 +1,92 @@
+[
+    {
+        "id":"12340",
+        "name":"Insomnia",
+        "author":"Stephen King",
+        "publisher":"Penguin Random House",
+        "type":"Libro",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12341",
+        "name":"Lord of the Rings",
+        "author":"Tolkien",
+        "publisher":"Salamanca",
+        "type":"DVD",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12342",
+        "name":"Martín Fierro",
+        "author":"José Hernández",
+        "publisher":"Santillana",
+        "type":"Libro",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12343",
+        "name":"Spiderman",
+        "author":"Stan Lee",
+        "publisher":"Marvel Comics",
+        "type":"Revista",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12344",
+        "name":"Enciclopedia Encarta 1998",
+        "author":"Microsoft",
+        "publisher":"Microsoft",
+        "type":"CD",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12345",
+        "name":"",
+        "author":"",
+        "publisher":"",
+        "type":"",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12346",
+        "name":"",
+        "author":"",
+        "publisher":"",
+        "type":"",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12347",
+        "name":"",
+        "author":"",
+        "publisher":"",
+        "type":"",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12348",
+        "name":"",
+        "author":"",
+        "publisher":"",
+        "type":"",
+        "state":"ACTIVE"
+
+    },
+    {
+        "id":"12349",
+        "name":"",
+        "author":"",
+        "publisher":"",
+        "type":"",
+        "state":"ACTIVE"
+
+    }
+]
