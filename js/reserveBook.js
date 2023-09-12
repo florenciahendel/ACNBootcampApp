@@ -9,7 +9,6 @@ async function cargar() {
         }
         const datos = await database.json();
       
-        // Aquí puedes hacer algo con los datos, como mostrarlos en la consola
         sessionStorage.setItem('libros', JSON.stringify(datos));
     }
     catch (error) {
