@@ -5,8 +5,8 @@
         "author":"Stephen King",
         "publisher":"Penguin Random House",
         "type":"Libro",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "1"
     },
     {
         "id":"12341",
@@ -14,7 +14,8 @@
         "author":"Mario Benedetti",
         "publisher":"Grupo Editorial Planeta",
         "type":"Libro",
-        "state":"ACTIVE"
+        "state":"ACTIVE",
+        "stock": "2"
 
     },
     {
@@ -23,7 +24,8 @@
         "author":"José Hernández",
         "publisher":"Santillana",
         "type":"Libro",
-        "state":"ACTIVE"
+        "state":"ACTIVE",
+        "stock": "0"
 
     },
     {
@@ -32,8 +34,8 @@
         "author":"Stan Lee",
         "publisher":"Marvel Comics",
         "type":"Revista",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "3"
     },
     {
         "id":"12344",
@@ -41,7 +43,8 @@
         "author":"Microsoft",
         "publisher":"Microsoft",
         "type":"CD",
-        "state":"ACTIVE"
+        "state":"ACTIVE",
+        "stock": "0"
 
     },
     {
@@ -50,7 +53,8 @@
         "author":"Manuel Mujica Lainez",
         "publisher":"Grupo Editorial Planeta",
         "type":"Libro",
-        "state":"ACTIVE"
+        "state":"ACTIVE",
+        "stock": "1"
 
     },
     {
@@ -59,7 +63,8 @@
         "author":"Eduardo Miguez",
         "publisher":"Sudamericana",
         "type":"CD",
-        "state":"ACTIVE"
+        "state":"ACTIVE",
+        "stock": "5"
 
     },
     {
@@ -68,8 +73,8 @@
         "author":"Ricky Martin",
         "publisher":"Sony Music",
         "type":"DVD",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "11"
     },
     {
         "id":"12348",
@@ -77,8 +82,8 @@
         "author":"Gabriela Margall",
         "publisher":"Ediciones B",
         "type":"Libro",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "3"
     },
     {
         "id":"12349",
@@ -86,25 +91,25 @@
         "author":"Dale Carnegie",
         "publisher":"Ediciones Obelisco",
         "type":"Libro",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "4"
     },
     {
-        "id":"12349",
+        "id":"12350",
         "name":"Mucho Gusto",
         "author":"Doña Petrona C. de Gandulfo",
         "publisher":"Ediciones Mucho Gusto",
         "type":"Revista",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "0"
     },
     {
-        "id":"12349",
+        "id":"12351",
         "name":"La Granja de Zenón",
         "author":"Paula Abdulia",
         "publisher":"CMD Ediciones",
         "type":"Revista",
-        "state":"ACTIVE"
-
+        "state":"ACTIVE",
+        "stock": "0"
     }
 ]
