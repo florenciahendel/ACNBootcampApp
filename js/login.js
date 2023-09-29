@@ -52,7 +52,7 @@ btnLogin.addEventListener('click', (e) => {
                 alert(`Usuario y/o password inválido`);
             } else {
                 sessionStorage.setItem('role', data.role);
-                window.location.href = 'index.html';
+                window.location.href = 'app.html';
             }
         }
 

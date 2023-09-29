@@ -1,5 +1,11 @@
-const btnSearch = document.getElementById("search");
-let IdToSearch = document.getElementById("inputCodeSearch")
+const searchBtn = document.getElementById("search"),
+    bookInfo = document.getElementById('selectedBookInfo'),
+    confirmReservationBtn = document.getElementById('confirmReservationBtn'),
+    reservationModalDOM = document.getElementById('bookReservationModal'),
+    closeModalDOM = document.getElementById('confirmReservation'),
+    reservationModal = new bootstrap.Modal(reservationModalDOM),
+    closeModal = new bootstrap.Modal(closeModalDOM);
+let IdToSearch = document.getElementById("inputCodeSearch");
 
 
 function validateBookId(booksDB, bookId) {
@@ -7,13 +13,14 @@ function validateBookId(booksDB, bookId) {
 
     if (!found) {
         return false;
-    } else { 
-        return found;}
+    } else {
+        return found;
+    }
 }
- 
 
-btnSearch.addEventListener('click', (e) => {
-    e.preventDefault();
+
+searchBtn.addEventListener('click', (e) => {
+    //e.preventDefault();
 
     //Validamos que ambos campos estén completos
     if (!IdToSearch.value) { //Necesitamos validar el contenido de este campo, entonces usamos el atributo value que es el que nos da el contenido
@@ -30,8 +37,8 @@ btnSearch.addEventListener('click', (e) => {
             if (!data) {
                 alert(`ID invalido`);
             } else {
-const bookElement = document.createElement('div');
-bookElement.innerHTML = `
+
+                bookInfo.innerHTML = `
 <h3>${data.name}</h3>
 <p><strong>Id:</strong> ${data.id}</p>
 <p><strong>Autor:</strong> ${data.author}</p>
@@ -40,12 +47,21 @@ bookElement.innerHTML = `
 <p><strong>Estado:</strong> ${data.state}</p>
 <p><strong>Stock:</strong> ${data.stock}</p>
 `;
-document.body.appendChild(bookElement);
-//Acá metemos la lógica para mostrar la info del libro que coincide con el código ingresado           
-}
+
+                reservationModal.hide();
+                IdToSearch.value = '';
+                //Acá metemos la lógica para mostrar la info del libro que coincide con el código ingresado           
+            }
         }
 
 
         fetchDB();
     }
+});
+
+confirmReservationBtn.addEventListener('click', () => {
+    reservationModal.hide();
+    closeModal.hide();
+    alert('Reserva exitosa');
+    IdToSearch.value = '';
 });
