@@ -10,8 +10,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-    <script defer src="./js/insertBook.js"></script>
-    <script defer src="./js/reserveBook.js"></script>
+    <script defer src="../js/insertBook.js"></script>
+    <script defer src="../js/reserveBook.js"></script>
 </head>
 
 <body>
@@ -19,13 +19,13 @@
         <!--Navigation-->
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="container-fluid">
-                <!-- ACN Logo -->
-                <!-- <a class="navbar-brand" href="#">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
                         <img
                             src="./img/logo.png"
                             alt="UniAccenture"
                             width="100" />
-                    </a> -->
+                    </a>
 
                 <!--Hamburger menu button-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#libraryNavbar"
@@ -43,7 +43,7 @@
                         </li>
                         <li id="bookInsertion" class="nav-item btn btn-primary d-none employee" data-bs-toggle="modal"
                             data-bs-target="#bookInsertionModal">
-                            Alta de Ejemplares
+                            Alta de Ejemplare
                         </li>
                     </ul>
 
@@ -87,11 +87,10 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel3">
-                                        Reservar
+                                        Reservar ejemplar
                                     </h1>
                                 </div>
-                                <div class="modal-body" id="selectedBookInfo">
-                                    Aquí la info del libro
+                                <div class="modal-body" id="selectedBookInfo">                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button class="btn btn-secondary" data-bs-target="#bookReservationModal"
@@ -151,6 +150,9 @@
                                                 </option>
                                                 <option value="DVD">
                                                     DVD
+                                                </option>
+                                                <option value="DVD">
+                                                    <E-book></E-book>
                                                 </option>
                                             </select>
                                         </div>
