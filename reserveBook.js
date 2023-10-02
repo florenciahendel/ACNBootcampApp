@@ -4,7 +4,8 @@ const searchBtn = document.getElementById("search"),
     reservationModalDOM = document.getElementById('bookReservationModal'),
     closeModalDOM = document.getElementById('confirmReservation'),
     reservationModal = new bootstrap.Modal(reservationModalDOM),
-    closeModal = new bootstrap.Modal(closeModalDOM);
+    closeModal = new bootstrap.Modal(closeModalDOM),
+    botonVolver = document.getElementById("botonVolver");
 let IdToSearch = document.getElementById("inputCodeSearch");
 
 
@@ -65,3 +66,9 @@ confirmReservationBtn.addEventListener('click', () => {
     alert('Reserva exitosa');
     IdToSearch.value = '';
 });
+
+
+botonVolver.addEventListener('click', () => {
+    console.log("Botón Volver clickeado");
+    reservationModal.hide();
+})
