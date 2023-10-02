@@ -51,7 +51,10 @@ searchBtn.addEventListener('click', (e) => {
 
                 reservationModal.hide();
                 IdToSearch.value = '';
-                //Acá metemos la lógica para mostrar la info del libro que coincide con el código ingresado           
+                //Acá metemos la lógica para mostrar la info del libro que coincide con el código ingresado
+                if (data.stock == 0) {
+                    alert(`Este ejemplar no esta disponible`);
+                }         
             }
         }
 
