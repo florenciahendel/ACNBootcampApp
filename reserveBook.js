@@ -38,7 +38,7 @@ searchBtn.addEventListener('click', (e) => {
             if (!data) {
                 alert(`ID invalido`);
             } else {
-
+                confirmReservationBtn.disabled = false;
                 bookInfo.innerHTML = `
 <h3>${data.name}</h3>
 <p><strong>Id:</strong> ${data.id}</p>
@@ -53,7 +53,17 @@ searchBtn.addEventListener('click', (e) => {
                 IdToSearch.value = '';
                 //Acá metemos la lógica para mostrar la info del libro que coincide con el código ingresado
                 if (data.stock == 0) {
-                    alert(`Este ejemplar no esta disponible`);
+                    confirmReservationBtn.disabled = true; 
+                    bookInfo.innerHTML = `
+                    <h3>${data.name}</h3>
+                    <p><strong>Id:</strong> ${data.id}</p>
+                    <p><strong>Autor:</strong> ${data.author}</p>
+                    <p><strong>Editorial:</strong> ${data.publisher}</p>
+                    <p><strong>Tipo:</strong> ${data.type}</p>
+                    <p><strong>Estado:</strong> ${data.state}</p>
+                    <p><strong>Stock:</strong> ${data.stock}</p>
+                    <p><strong>NO DISPONIBLE</strong></p>
+`;
                 }         
             }
         }
