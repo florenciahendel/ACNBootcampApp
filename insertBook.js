@@ -14,6 +14,7 @@ const bookForm = document.getElementById('newBookForm'),
     dismissModal = new bootstrap.Modal(dismissModalDOM);
 
 let bookCatalog = JSON.parse(localStorage.getItem('bookCatalog')) || [];
+let idCounter = localStorage.getItem('bookCounter') || 0;
 
 //Mostrar botón de acción de acuerdo al rol de ususario
 let userRole = sessionStorage.getItem('role');
@@ -24,10 +25,7 @@ setTimeout(() => {
 
 //Autoincrementar Id libro
 roleBtn[0].addEventListener('click', () => {
-    let idCounter = localStorage.getItem('bookCounter') || 0;
-    idCounter++;
-    idInput.value = idCounter;
-    localStorage.setItem('bookCounter', idCounter);
+    idInput.value = idCounter + 1;
 });
 
 //Validar caracteres alfanuméricos
@@ -71,7 +69,6 @@ saveBookBtn.addEventListener('click', () => {
     let validAuthor = validateCharExtension(bookAuthor, 100);
     let validPublisher = validateCharExtension(bookPublisher, 50);
     if (validName && validAuthor && validPublisher) {
-        //Acá el código para guardar el ejemplar
         let book = new Book(
             idInput.value,
             bookName.value,
@@ -81,15 +78,12 @@ saveBookBtn.addEventListener('click', () => {
         );
 
         bookCatalog.push(book);
+        idCounter++;
+        localStorage.setItem('bookCounter', idCounter);
         localStorage.setItem('bookCatalog', JSON.stringify(bookCatalog));
         alert('El ejemplar ha sido dado de alta');
-
         insertionModal.hide();
         bookForm.reset();
-        console.log(JSON.parse(localStorage.getItem('bookCatalog')));
-    } else {
-        //Acá el código para volver
-        console.log('Algún dato inválido');
     }
 });
 
@@ -97,4 +91,7 @@ confirmCancellationBtn.addEventListener('click', () => {
     insertionModal.hide();
     dismissModal.hide();
     bookForm.reset();
+    removeErrorColor(bookName);
+    removeErrorColor(bookAuthor);
+    removeErrorColor(bookPublisher);
 });
