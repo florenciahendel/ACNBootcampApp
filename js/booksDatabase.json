@@ -1,115 +1,102 @@
 [
     {
-        "id":"12340",
-        "name":"Insomnia",
-        "author":"Stephen King",
-        "publisher":"Penguin Random House",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "1"
+      "id": 44547,
+      "name": "Enciclopedia Encarta 1998",
+      "author": "Microsoft",
+      "publisher": "Microsoft",
+      "type": "CD",
+      "state": "ACTIVE",
+      "stock": 0
     },
     {
-        "id":"12341",
-        "name":"Gracias por el fuego",
-        "author":"Mario Benedetti",
-        "publisher":"Grupo Editorial Planeta",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "2"
-
+      "id": 12348,
+      "name": "Ricky Martin: Black and White Tour",
+      "author": "Ricky Martin",
+      "publisher": "Sony Music",
+      "type": "DVD",
+      "state": "ACTIVE",
+      "stock": 0
     },
     {
-        "id":"12342",
-        "name":"Martín Fierro",
-        "author":"José Hernández",
-        "publisher":"Santillana",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "0"
-
+      "id": 12347,
+      "name": "El señor de los anillos",
+      "author": "J.R.R. Tolkien",
+      "publisher": "Minotauro",
+      "type": "Libro",
+      "state": "ACTIVE",
+      "stock": 0
     },
     {
-        "id":"12343",
-        "name":"Spiderman",
-        "author":"Stan Lee",
-        "publisher":"Marvel Comics",
-        "type":"Revista",
-        "state":"ACTIVE",
-        "stock": "3"
+      "id": 45678,
+      "name": "La historia argentina contada por mujeres",
+      "author": "Gabriela Margall",
+      "publisher": "Ediciones B",
+      "type": "Libro",
+      "state": "ACTIVE",
+      "stock": 3
     },
     {
-        "id":"12344",
-        "name":"Enciclopedia Encarta 1998",
-        "author":"Microsoft",
-        "publisher":"Microsoft",
-        "type":"CD",
-        "state":"ACTIVE",
-        "stock": "0"
-
+      "id": 32456,
+      "name": "Juego de tronos",
+      "author": "George R.R. Martin",
+      "publisher": "Ediciones Gigamesh",
+      "type": "E-book",
+      "state": "ACTIVE",
+      "stock": 4
     },
     {
-        "id":"12345",
-        "name":"El Unicornio",
-        "author":"Manuel Mujica Lainez",
-        "publisher":"Grupo Editorial Planeta",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "1"
-
+      "id": 20937,
+      "name": "El principito",
+      "author": "Antoine de Saint-Exupéry",
+      "publisher": "Harbrace Paperbound Library",
+      "type": "Libro",
+      "state": "ACTIVE",
+      "stock": 4
     },
     {
-        "id":"12346",
-        "name":"Histora Económica de la Argentina",
-        "author":"Eduardo Miguez",
-        "publisher":"Sudamericana",
-        "type":"CD",
-        "state":"ACTIVE",
-        "stock": "5"
-
+      "id": 12346,
+      "name": "Historia Económica de la Argentina",
+      "author": "Eduardo Miguez",
+      "publisher": "Sudamericana",
+      "type": "CD",
+      "state": "ACTIVE",
+      "stock": 5
     },
     {
-        "id":"12347",
-        "name":"Ricky Martin: Black and White Tour",
-        "author":"Ricky Martin",
-        "publisher":"Sony Music",
-        "type":"DVD",
-        "state":"ACTIVE",
-        "stock": "11"
+      "id": 87541,
+      "name": "Inception",
+      "author": "Christopher Nolan",
+      "publisher": "Warner Bros.",
+      "type": "DVD",
+      "state": "ACTIVE",
+      "stock": 5
     },
     {
-        "id":"12348",
-        "name":"La historia argentina contada por mujeres",
-        "author":"Gabriela Margall",
-        "publisher":"Ediciones B",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "3"
+      "id": 32467,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "publisher": "Prentice Hall",
+      "type": "E-book",
+      "state": "ACTIVE",
+      "stock": 6
     },
     {
-        "id":"12349",
-        "name":"Cómo ser un buen líder",
-        "author":"Dale Carnegie",
-        "publisher":"Ediciones Obelisco",
-        "type":"Libro",
-        "state":"ACTIVE",
-        "stock": "4"
+      "id": 67891,
+      "name": "Revista National Geographic",
+      "author": "Jane Smith",
+      "publisher": "National Geographic Society",
+      "type": "Revista",
+      "state": "ACTIVE",
+      "stock": 0
     },
     {
-        "id":"12350",
-        "name":"Mucho Gusto",
-        "author":"Doña Petrona C. de Gandulfo",
-        "publisher":"Ediciones Mucho Gusto",
-        "type":"Revista",
-        "state":"ACTIVE",
-        "stock": "0"
-    },
-    {
-        "id":"12351",
-        "name":"La Granja de Zenón",
-        "author":"Paula Abdulia",
-        "publisher":"CMD Ediciones",
-        "type":"Revista",
-        "state":"ACTIVE",
-        "stock": "0"
+      "id": 32146,
+      "name": "Wired",
+      "author": "Mary Johnson",
+      "publisher": "Condé Nast",
+      "type": "Revista",
+      "state": "ACTIVE",
+      "stock": 7
     }
-]
+  ]
+  

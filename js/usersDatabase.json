@@ -1,32 +1,33 @@
 [
-    {
-       "name":"Rachel",
-       "pass":"Chanel",
-       "role":"student"
-    },
-    {
-       "name":"Monica",
-       "pass":"thegellercup",
-       "role":"teacher"
-    },
-    {
-       "name":"Phoebe",
-       "pass":"smellyCat",
-       "role":"student"
-    },
-    {
-       "name":"Ross",
-       "pass":"unagi",
-       "role":"employee"
-    },
-    {
-       "name":"Chandler",
-       "pass":"chanandlerBong",
-       "role":"teacher"
-    },
-    {
-       "name":"Joey23",
-       "pass":"howYouDoin",
-       "role":"employee"
-    }
+   {
+     "name": "AlbertoMariani",
+     "pass": "R0ck3tP@th",
+     "role": "employee"
+   },
+   {
+     "name": "CarlaMartinez",
+     "pass": "T1gerS@vage",
+     "role": "employee"
+   },
+   {
+     "name": "BelenSartirana",
+     "pass": "L1ghtn1ngB0lt",
+     "role": "employee"
+   },
+   {
+     "name": "AndresMendez",
+     "pass": "Sp1interM@ster",
+     "role": "student"
+   },
+   {
+     "name": "IsabellaRomano",
+     "pass": "S0l@rD3l1ght",
+     "role": "employee"
+   },
+   {
+     "name": "LucasSantoro",
+     "pass": "M@rsR0v3r",
+     "role": "teacher"
+   }
  ]
+ 
