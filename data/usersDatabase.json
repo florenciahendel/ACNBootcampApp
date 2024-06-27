@@ -1,32 +1,32 @@
 [
    {
      "name": "AlbertoMariani",
-     "pass": "R0ck3tPath",
+     "pass": "pass01",
      "role": "employee"
    },
    {
      "name": "CarlaMartinez",
-     "pass": "T1gerSavage",
+     "pass": "pass02",
      "role": "employee"
    },
    {
      "name": "BelenSartirana",
-     "pass": "L1ghtn1ngB0lt",
+     "pass": "pass03",
      "role": "employee"
    },
    {
      "name": "AndresMendez",
-     "pass": "Sp1interMaster",
+     "pass": "pass04",
      "role": "student"
    },
    {
      "name": "IsabellaRomano",
-     "pass": "S0larD3l1ght",
-     "role": "employee"
+     "pass": "pass05",
+     "role": "student"
    },
    {
-     "name": "LucasSantoro",
-     "pass": "MarsR0v3r",
+     "name": "AzulSantoro",
+     "pass": "pass06",
      "role": "teacher"
    }
  ]
