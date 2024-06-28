@@ -1,6 +1,6 @@
 [
     {
-      "id": 1001,
+      "id": 1,
       "name": "Enciclopedia Encarta 1998",
       "author": "Microsoft",
       "publisher": "Microsoft",
@@ -9,7 +9,7 @@
       "stock": 0
     },
     {
-      "id": 1002,
+      "id": 2,
       "name": "Ricky Martin: Black and White Tour",
       "author": "Ricky Martin",
       "publisher": "Sony Music",
@@ -18,7 +18,7 @@
       "stock": 0
     },
     {
-      "id": 1003,
+      "id": 3,
       "name": "El señor de los anillos",
       "author": "J.R.R. Tolkien",
       "publisher": "Minotauro",
@@ -27,7 +27,7 @@
       "stock": 0
     },
     {
-      "id": 1004,
+      "id": 4,
       "name": "La historia argentina contada por mujeres",
       "author": "Gabriela Margall",
       "publisher": "Ediciones B",
@@ -36,7 +36,7 @@
       "stock": 3
     },
     {
-      "id": 1005,
+      "id": 5,
       "name": "Juego de tronos",
       "author": "George R.R. Martin",
       "publisher": "Ediciones Gigamesh",
@@ -45,7 +45,7 @@
       "stock": 4
     },
     {
-      "id": 1006,
+      "id": 6,
       "name": "El principito",
       "author": "Antoine de Saint-Exupéry",
       "publisher": "Harbrace Paperbound Library",
@@ -54,7 +54,7 @@
       "stock": 4
     },
     {
-      "id": 1007,
+      "id": 7,
       "name": "Historia Económica de la Argentina",
       "author": "Eduardo Miguez",
       "publisher": "Sudamericana",
@@ -63,7 +63,7 @@
       "stock": 5
     },
     {
-      "id": 1008,
+      "id": 8,
       "name": "Inception",
       "author": "Christopher Nolan",
       "publisher": "Warner Bros.",
@@ -72,7 +72,7 @@
       "stock": 5
     },
     {
-      "id": 1009,
+      "id": 9,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "author": "Robert C. Martin",
       "publisher": "Prentice Hall",
@@ -81,7 +81,7 @@
       "stock": 6
     },
     {
-      "id": 1010,
+      "id": 10,
       "name": "Revista National Geographic",
       "author": "Jane Smith",
       "publisher": "National Geographic Society",
@@ -90,7 +90,7 @@
       "stock": 0
     },
     {
-      "id": 1011,
+      "id": 11,
       "name": "Wired",
       "author": "Mary Johnson",
       "publisher": "Condé Nast",
